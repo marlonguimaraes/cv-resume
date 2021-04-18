@@ -1,8 +1,10 @@
 ## Resume or CV
 
-- Check my resume [here](cv_marlon_mendes.pdf)
+- Check my resume [here](https://github.com/marlonguimaraes/cv-resume/blob/main/cv_marlon_mendes.pdf)
 - [LinkedIn](https://www.linkedin.com/in/marlonciriatico/)
 
-**Moderncv**
+**LaTeX source code**
 
-Built using moderncv: https://github.com/xdanaux/moderncv, check out that cool template!
+- [Source code](main.tex)
+
+Built using [moderncv](https://github.com/xdanaux/moderncv), check out that cool template!
