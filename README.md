@@ -1,7 +1,7 @@
 ## Resume or CV
 
 - Check my resume [here](cv_marlon_mendes.pdf)
-- [Linkedin](https://www.linkedin.com/in/marlonciriatico/)
+- [LinkedIn](https://www.linkedin.com/in/marlonciriatico/)
 
 **Moderncv**
 

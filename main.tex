@@ -1,0 +1,98 @@
+%% See https://github.com/xdanaux/moderncv/blob/master/manual/moderncv_userguide.v2.pdf for information
+\documentclass[10pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking} % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\usepackage[utf8]{inputenc} 
+\usepackage[scale=.9]{geometry} % adjust the page margins
+%\setlength{\hintscolumnwidth}{3cm} % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}\ % force the width allocated to your name and avoid line breaks.
+
+\firstname{Marlon}
+\familyname{Guimarães}
+\address{Brasília, Brazil} % optional
+\email{marlonciriatico@gmail.com} % optional
+\phone[fax]{+55~(21)~99768 8899} % optional
+\social[linkedin]{marlonciriatico} 
+\social[github]{marlonguimaraes}
+
+\begin{document}
+\makecvtitle
+
+\section{Education}
+\cventry{March 2014 -- December 2019}{Bachelor in Software Engineering}{University of Brasilia}{Brasília - Brazil}{}{}
+\cventry{October 2013 -- November 2013}{Brasilia Without Borders Program}{Georgetown University}{Washington, DC - United States}{}{Innovation and Immersion in American Culture and History}  % arguments 3 to 6 can be left empty
+
+\section{Skills}
+\cvitem{Programming languages}{TypeScript, JavaScript, Python, C\#, Golang (Go), Java, C++, C}
+\cvitem{Technologies}{React, GraphQL, Node.js, REST, Unity 3D, Git, Bash, Docker, Next.js, PostgreSQL, Redis, Postman, CSS, HTML, Tailwind CSS, Tachyons, Material Design, Google Chrome API, scikit-learn}
+
+\section{Professional Experience}
+
+\cventry{March 2020 -- Present}{Software Engineer - VTEX App Store Team}{VTEX}{Rio de Janeiro}{}{VTEX is an e-commerce platform with more than 2900 renowned companies as clients, operating in 42 countries and in global expansion.\newline
+\begin{itemize}%
+\item Worked on an online store (VTEX App Store) that sells extensions for VTEX stores;
+\item Developed the Checkout page with user authentication and authorization (React, Tachyons and GraphQL);
+\item Built the subscription service where users are charged monthly with an on-demand price model  (TypeScript, Node.js, REST endpoints, Jest for unit tests);
+\item Implemented the product submission flow where vendors could send software packages to be sold in the store (Node.js, npm, oclif for the CLI).\newline
+\end{itemize}}
+
+
+
+\cventry{December 2018 -- March 2019}{Game Development Engineer Intern - Sniper 3D Team}{Wildlife Studios}{}{}
+    {Sniper 3D is a mobile game played by more than 15 million users worldwide.\newline \newline
+    Implemented the back-end for a feature that split PvP rankings into world, country and city rankings based on players IP addresses. Improved UI, developed AB tests for new features on the game \textit{Sniper 3D Assassin}.
+		Technologies:
+    Unity 3D, C\#, Golang, Redis, docker, PostgreSQL}
+    
+\cventry{January 2018 -- December 2018}{Salic-ML}{LAPPIS Laboratory}{}{}
+    {Developed machine learning solutions to detect anomalies on prices and set of products from projects submitted to SALIC (goverment system).
+I also worked on data mining on these projects to collect and prepare data, statistics and insights. Technologies:
+    Python, Microsoft SQL Server, matplotlib, scikit-learn}
+
+
+\section{University projects}
+
+\cventry{March 2019 -- December 2019}{GoDash}{Bachelor final project}{}{}
+    {GoDash is a 2D multiplayer shooter game that I developed alone during my bachelor final project. The networking system was done using Remote Procedure Calls through UNet API. The game has bots with artificial intelligence that play real time matches against human players.
+    Technologies: Unity, C\#, UNet, pathfinding algorithms}
+    
+\cventry{August 2018 -- December 2018}{Girassol}{Integration Project 2 course}{}{}
+    {Girassol is a project to automate the process of positioning antennas to point to Earth's satellites. Contributed to the satellite tracking module using propagation models to
+    predict satellites position and velocity. 
+    Technologies: Python, numpy, matplotlib, sgp4}
+
+\cventry{March 2018 -- July 2018}{Cardinals}{Software Product Engineering course}{}{}
+    {Contributed to the DevOps pipeline of a web application
+    project, developed in Python using Django. Implemented the containerization
+    (using docker-compose) of the database and the django server, continuous integration (CI) for tests and
+    static code analysis. Used Github's OAuth service to authenticate requests for Github's API.
+    Technologies: python, django, OAuth, docker, docker-compose}
+
+\cventry{July 2015 -- December 2015}{EuVou}{Software Development Methods
+    course}{}{}{Developed an android application that shares information about cultural events happening in Brasilia. The application made use of Open Data as well as end-user input to get information about cultural events. Technologies: java, android}
+
+\section{Personal projects}
+\cventry{January 2018 -- February 2018}{Sudoker}{}{}{}
+    {Application that generates and solves sudoku challenges. Technologies: python, pytest}
+
+\cventry{January 2017 -- September 2017}{realpomodoro}{}{}{}
+    {A customizable pomodoro timer that keeps track of user's pomodoros.
+    Technologies: Java, Swing.}
+
+\cventry{December 2015 -- Present}{competitive\_programming}{}{}{}
+  {A codebase of popular algorithms and techniques used in programming competitions
+  Technologies: C++, STL}
+
+\section{Programming competitions}
+\cvitem{ACM ICPC Brazilian First Phase}{Participated in 2015, 2016 and 2017 as a competitor.}
+\cvitem{ACM ICPC Brazilian Finals}{Participated in 2016 and 2017 as a competitor.}
+
+\section{Skills}
+\cvitem{Programing languages}{C, C++, Java, Python, C\#, Golang}
+\cvitem{Libraries/APIs}{STL, jupyter notebook, pandas, numpy, matplotlib, Unity 3D, django}
+\cvitem{Softwares}{git}
+
+\section{Personal Info}
+\cvitem{LinkedIn}{\href{linkedin.com/in/marlonciriatico/}{linkedin.com/in/marlonciriatico/}}
+
+\end{document}
